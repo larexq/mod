@@ -1,0 +1,17 @@
+{
+  "name": "void-mod",
+  "version": "1.0.0",
+  "description": "Void | Moderasyon Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "larex",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "moment-duration-format": "^2.3.2"
+  }
+}
