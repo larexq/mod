@@ -1,6 +1,6 @@
 # 🗝️ Moderasyon Botu
 
-- **config.json** dosyasından **token** bilgilerini ayarla.
+- **config.json** dosyasından **token** ve **developer** bilgilerini ayarla.
 - **events -> ready.js** dosyasından botun durumunu değiştirebilirsin.
 
 # 🔎 İletişim
