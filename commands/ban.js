@@ -25,7 +25,7 @@ module.exports = {
         .setAuthor({ name: "Yetkin Yetmiyor", iconURL: interaction.member.displayAvatarURL() })
         .setDescription(`Bu komutu kullanabilmek için \`Üyeleri Yasakla\` yetkisine sahip olman gerekiyor.`)
 
-        if(interaction.member.permissions.has(PermissionsBitField.Flags.BanMembers)) return interaction.reply({ embeds: [yetki] })
+        if(!interaction.member.permissions.has(PermissionsBitField.Flags.BanMembers)) return interaction.reply({ embeds: [yetki] })
 
         const kullanıcı = interaction.options.getMember("kullanıcı");
         const sebep = interaction.options.getString("sebep");
